@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/util.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>My Project</title>
+  </head>
+  
+  <body>
+    <!-- navbar -->
+    <nav class="pink lighten-4 z-depth-0">
+      <div class="nav-wrapper">
+        <a href="#!" class="hide-on-med-and-up">Home</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+          ><i class="material-icons">menu</i></a
+        >
+        <ul class="hide-on-med-and-down">
+          <li><a href="./">Home</a></li>
+          <li><a href="./user.html">User</a></li>
+          <li><a href="https://google.com">Profile</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- navbar -->
+
+    <!-- sidebar -->
+    <ul class="sidenav" id="mobile-demo">
+      <li>
+        <div class="user-view">
+          <div class="background">
+            <img src="./assets/images/iranmall.jpg" class="sizefull" />
+          </div>
+          <a href="/"
+            ><img class="circle" src="./assets/images/shiraz & esf (20).jpeg"
+          /></a>
+          <a href="/"><span class="white-text name">Sadegh Ranjbar</span></a>
+          <a href="/"
+            ><span class="white-text email">sadiq.ranjbar@gmail.com</span></a
+          >
+        </div>
+      </li>
+      <li>
+        <a href="https://t.me/sobanran">
+          <i class="material-icons">insert_link</i>
+          Telegram
+        </a>
+      </li>
+      <li>
+        <a href="https://codeyad.com">
+          <i class="material-icons">insert_link</i>
+          Codeyad
+        </a>
+      </li>
+      <li><div class="divider"></div></li>
+      <li><a class="subheader">Pages:</a></li>
+      <li><a class="waves-effect" href="#!">Home</a></li>
+      <li><a class="waves-effect" href="#!">Users</a></li>
+    </ul>
+    <!-- sidebar -->
+
+    <section class="flex-c-m flex-col sizefull p-r-20 p-l-20 p-t-100">
+      <img src="./assets/images/mark2.jpg" class="w-full max-w-200 circle" />
+      <a
+        href="./user.html"
+        class="waves-effect waves-light btn pink lighten-2 w-full max-w-250 m-t-10 mb-10 rounded_pill"
+        >User</a
+      >
+      <a
+        class="waves-effect waves-light btn pink lighten-2 w-full max-w-250 m-t-10 mb-10 rounded_pill"
+        >Log in</a
+      >
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
